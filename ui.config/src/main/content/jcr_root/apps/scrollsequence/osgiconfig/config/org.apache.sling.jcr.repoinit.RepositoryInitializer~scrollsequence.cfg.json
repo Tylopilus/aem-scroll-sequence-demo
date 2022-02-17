@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/scrollsequence",
+        "create path (nt:unstructured) /content/dam/scrollsequence/jcr:content",
+        "set properties on /content/dam/scrollsequence/jcr:content\n  set cq:conf{String} to /conf/scrollsequence\n  set jcr:title{String} to \"Scroll Sequence Demo\"\nend"
+    ]
+}

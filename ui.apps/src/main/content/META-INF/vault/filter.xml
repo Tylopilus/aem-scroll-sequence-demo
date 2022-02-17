@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/scrollsequence/clientlibs"/>
+    <filter root="/apps/scrollsequence/components"/>
+    <filter root="/apps/scrollsequence/i18n"/>
+</workspaceFilter>
