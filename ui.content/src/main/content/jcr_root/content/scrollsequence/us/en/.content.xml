@@ -2,14 +2,15 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        pageTitle="Scroll Sequence Demo"
-        jcr:primaryType="cq:PageContent"
-        jcr:title="en"
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2022-02-16T20:29:52.893+01:00"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/scrollsequence/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="en"
         sling:resourceType="scrollsequence/components/page"
-    >
+        pageTitle="Scroll Sequence Demo">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="scrollsequence/components/container"
@@ -76,6 +77,13 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="scrollsequence/components/helloworld"
                         text="lalala :)"/>
+                    <scrollsequence
+                        jcr:created="{Date}2022-02-16T20:29:52.884+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-02-16T20:29:52.884+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="scrollsequence/components/scrollsequence"/>
                 </container>
             </container>
         </root>
